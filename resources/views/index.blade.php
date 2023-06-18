@@ -33,6 +33,7 @@
 			<th>Nis</th>
 			<th>Aksi</th>
 		</tr>
+		@if($students->count())
 		@foreach($students as $student)
 		<tr>
 			<td>{{$student->nama}}</td>
@@ -49,6 +50,7 @@
 			</td>
 		</tr>
 		@endforeach
+		@endif
 	</table>	
 
 </body>
