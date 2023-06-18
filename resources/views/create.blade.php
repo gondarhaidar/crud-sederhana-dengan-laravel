@@ -12,7 +12,7 @@
 	</style>
 </head>
 <body>
-	<h1>Tamabah siswa</h1>
+	<h1>Tambah siswa</h1>
 	<form action="/student" method="post">
 		@csrf
 		<label>Nama :</label><br>
