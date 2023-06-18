@@ -26,6 +26,7 @@
 	@endif
 	<h1>Data siswa</h1>
 	<a href="/student/create">Tambah siswa</a>
+	@if($students->count())
 	<table border="1" cellpadding="10" cellspacing="0">
 		<tr>
 			<th>Nama</th>
@@ -33,7 +34,6 @@
 			<th>Nis</th>
 			<th>Aksi</th>
 		</tr>
-		@if($students->count())
 		@foreach($students as $student)
 		<tr>
 			<td>{{$student->nama}}</td>
@@ -50,8 +50,10 @@
 			</td>
 		</tr>
 		@endforeach
-		@endif
 	</table>	
+	@else
+	<h2>Tidak ada siswa</h2>
+	@endif
 
 </body>
 </html>
