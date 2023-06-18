@@ -20,7 +20,7 @@
 		<label>kelas :</label><br>
 		<input type="text" name="kelas"><br>
 		<label>Nis :</label><br>
-		<input type="text" name="nis"><br>
+		<input type="number" name="nis"><br>
 		<label>Jenis Kelamin :</label> <br>
 		<select name="kelamin">
 			<option value="laki-laki">laki-laki</option>

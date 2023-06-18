@@ -21,7 +21,7 @@
 		<label>kelas :</label><br>
 		<input type="text" name="kelas" value="{{$student->kelas}}"><br>
 		<label>Nis :</label><br>
-		<input type="text" name="nis" value="{{$student->nis}}"><br>
+		<input type="number" name="nis" value="{{$student->nis}}"><br>
 		<label>Jenis kelamin :</label><br>
 		<select name="kelamin">
 			<option value="laki-laki">laki-laki</option>
