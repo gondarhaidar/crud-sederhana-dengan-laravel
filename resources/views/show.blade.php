@@ -9,10 +9,10 @@
 	<h1>Detail siswa</h1>
 	<ul>
 		<li>nama : {{$student->nama}}</li>
-		<li>nama : {{$student->kelas}}</li>
-		<li>nama : {{$student->nis}}</li>
-		<li>nama : {{$student->kelamin}}</li>
-		<li>nama : {{$student->alamat}}</li>
+		<li>kelas : {{$student->kelas}}</li>
+		<li>nis : {{$student->nis}}</li>
+		<li>jenis kelamin : {{$student->kelamin}}</li>
+		<li>alamat : {{$student->alamat}}</li>
 	</ul>
 	<a href="/student">Kembali</a>
 
